@@ -2,6 +2,8 @@
 
 TabLayout with drawable indicator
 
+!(demo.gif)[https://raw.githubusercontent.com/legendmohe/SlidingDrawableTabLayout/master/ezgif-973342673.gif]
+
 # Usage
 
 ## gradle
