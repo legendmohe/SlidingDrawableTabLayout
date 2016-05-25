@@ -24,3 +24,15 @@ Just use it as TabLayout:
 
     SlidingDrawableTabLayout tabLayout = (SlidingDrawableTabLayout) findViewById(R.id.tabs);
     tabLayout.setupWithViewPager(mViewPager);    
+
+    <com.legendmohe.slidingdrawabletablayout.SlidingDrawableTabLayout
+        android:id="@+id/tabs"
+        android:layout_margin="10dp"
+        app:tabTextColor="@color/colorPrimary"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabBackground="@android:color/transparent"
+        app:slidingBackground="@drawable/auto_main_tablayout_sliding_bg"
+        android:background="@drawable/auto_main_tablayout_bg"
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
